@@ -5,11 +5,17 @@ import java.util.Scanner;
 public class Ejer6 {
 
 	public static void main(String[] args) {
+		// Definimos las variables
+				int num1;
+				int num2;
+				//Introducimos las variables de resultados
+				int suma;
+				int resta;
+				int división;
+				int multiplicación;
 		// Creamos el escáner
 		Scanner sc = new Scanner(System.in);
-		// Definimos las variables
-		int num1;
-		int num2;
+		
 		// Pedimos introducir el primer número
 		System.out.println("Introduzca primer número");
 		// Metemos ese número en consola
@@ -18,11 +24,7 @@ public class Ejer6 {
 		System.out.println("Introduzca segundo número");
 		// Metemos ese número en consola
 		num2 = sc.nextInt();
-		//Introducimos las variables de resultados
-		int suma;
-		int resta;
-		int división;
-		int multiplicación;
+		
 		//Hacemos el cálculo
 		suma = num1+num2;
 		resta = num1-num2;

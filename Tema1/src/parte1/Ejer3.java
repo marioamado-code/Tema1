@@ -5,16 +5,18 @@ import java.util.Scanner;
 public class Ejer3 {
 
 	public static void main(String[] args) {
-		// Creamos el escáner
-		Scanner sc = new Scanner(System.in);
 		// Definimos la variable año actual
 		int anioActual;
+		// Definimos la variable año de nacimiento
+		int anioNacimiento;
+		// Creamos el escáner
+		Scanner sc = new Scanner(System.in);
+
 		// Pedimos el año actual
 		System.out.println("Introduzca el año actual");
 		// Damos el año a la consola
 		anioActual = sc.nextInt();
-		// Definimos la variable año de nacimiento
-		int anioNacimiento;
+
 		System.out.println("Introduzca su año de nacimiento");
 		// Damos el año a la consola
 		anioNacimiento = sc.nextInt();
