@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Ejer9 {
 
 	public static void main(String[] args) {
+		// Introducimos la variable edad
+				int edad;
 		// Creamos el escáner
 		Scanner sc = new Scanner(System.in);
-		// Introducimos la variable edad
-		int edad;
+		
 		// Pedimos al usuario la edad
 		System.out.println("Introduzca edad");
 		// La pasamos a la consola
