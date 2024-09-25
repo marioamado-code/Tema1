@@ -19,11 +19,11 @@ public class Ejer12 {
 		System.out.println("¿Cúantos kilos de peras se han vendido?");
 		// Pasamos el número a consola
 		peras = sc.nextDouble();
-//Hacemos los cálculos
-		importe = 2.35*manzanas + 1.95*peras;
-		//Mostramos el resultado
+        //Hacemos los cálculos
+		importe = 2.35 * manzanas + 1.95 * peras;
+		// Mostramos el resultado
 		System.out.println("Ha ganado " + importe + " euros");
-		//Cerramos el escáner
+		// Cerramos el escáner
 		sc.close();
 	}
 
