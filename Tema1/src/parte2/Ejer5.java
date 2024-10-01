@@ -19,7 +19,7 @@ public class Ejer5 {
 		// Hacemos los cálculos
 		horas = segundos / 3600;
 		minutos = (segundos % 3600) / 60;
-		segundosRestantes = (segundos % 3600) - minutos*60;
+		segundosRestantes = (segundos % 3600) - minutos * 60;
 		// Expresamos el resultado
 		System.out.println("Los " + segundos + " segundos que pusiste equivalen a " + horas + " horas, " + minutos
 				+ " minutos, y " + segundosRestantes + " segundos");
