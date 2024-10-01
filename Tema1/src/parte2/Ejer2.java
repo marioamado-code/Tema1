@@ -15,8 +15,7 @@ public class Ejer2 {
 		System.out.println("Introduzca número ");
 		// Leemos el número
 		num = sc.nextInt();
-		//Vemos si es múltiplo de 7
-        num%7 = 0;
+		//Vemos si es múltiplo de 
 	}
 			
 		}
